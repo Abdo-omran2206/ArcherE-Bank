@@ -1,6 +1,6 @@
 <h1 align="center">🚀 Archer Banking App</h1>
 <div align="center">
-  <img src="/public/logo/eagle.png" alt="Archer Bank Eagle Logo" width="200" />
+  <img src="public/logo/AlbedoBase_XL_A_golden_stylized_eagle_with_outstretched_wings_2__1_-removebg-preview.png" alt="Archer Bank Eagle Logo" width="200" />
 </div>
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-blue?logo=next.js)](https://nextjs.org/) [![Express](https://img.shields.io/badge/Express.js-4.x-green?logo=express)](https://expressjs.com/) [![MySQL](https://img.shields.io/badge/MySQL-8.x-blue?logo=mysql)](https://www.mysql.com/) [![Socket.IO](https://img.shields.io/badge/Socket.IO-4.x-black?logo=socket.io)](https://socket.io/)
