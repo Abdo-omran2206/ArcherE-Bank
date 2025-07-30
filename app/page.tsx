@@ -8,12 +8,9 @@ export default function Home() {
   return (
     <div>
       <Header/>
-
       <main className={styles.main + ' ' + styles.animatedFadeSlideIn}>
         <Visa/>
-        
         <About/>
-      
       </main>
       <Footer/>
     </div>

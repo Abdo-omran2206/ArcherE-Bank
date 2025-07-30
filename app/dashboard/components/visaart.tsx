@@ -138,6 +138,9 @@ function Visaart({ data }: VisaartProps) {
                 ctx.font = '17px sans-serif';
                 ctx.fillText('EX: ' + (data.visa_expiry_date || 'MM/YY'), 190, 270);
             }else{
+                // Default case if no specific template is matched
+                ctx.fillStyle = '#1a237e';
+                ctx.fillRect(0, 0, width, height);
                 ctx.font = 'bold 25px sans-serif';
                 ctx.fillStyle = '#fff';
                 ctx.fillText((data.name || 'CARD NAME').toUpperCase(), 300, 100);

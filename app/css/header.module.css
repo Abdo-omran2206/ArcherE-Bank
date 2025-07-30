@@ -111,6 +111,7 @@
 }
 .header_contener div h1 b{
     color: var(--primary-color);
+    text-shadow: 3px 3px 5px rgba(24, 24, 24, 0.5);
 }
 .header_contener div h4{
     font-size: 1.5rem;
