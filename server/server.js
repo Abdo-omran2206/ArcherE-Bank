@@ -116,6 +116,7 @@ app.post("/get_my_data", (req, res) => {
 });
 
 app.post('/register', (req, res) =>{
+
   
   const { name, password, nationalID, phone_number, visa_type } = req.body;
 
@@ -578,6 +579,7 @@ io.on('connection', (socket) => {
     emitTradesAndBalance(random_code, socket);
   });
 });
+
 
 server.listen(port, () => {
   console.log(`Example app (Express + Socket.IO) listening on port ${port}`)

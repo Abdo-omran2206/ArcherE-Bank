@@ -1,18 +1,15 @@
 const mysql = require('mysql');
-require('dotenv').config();
-
 const mysqlconnection = mysql.createConnection({
-  host     : process.env.DB_HOST || 'localhost',
-  user     : process.env.DB_USER || 'root',
-  password : process.env.DB_PASSWORD || '',
-  database : process.env.DB_NAME || 'archerbank'
+  host     : 'localhost',
+  user     : 'root',
+  password : '',
+  database : 'archerbank'
 });
-
-mysqlconnection.connect((err) => {
-  if (err) {
-    console.error('Error connecting to MySQL:', err);
-    process.exit(1);
-  }
+ 
+mysqlconnection.connect();
+ 
+mysqlconnection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+  if (error) throw error;
   console.log('the mysql connection is working');
 });
 
